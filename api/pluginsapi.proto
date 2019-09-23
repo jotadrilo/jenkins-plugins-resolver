@@ -25,17 +25,3 @@ message Graph {
   }
   repeated Node nodes = 1;
 }
-
-message PluginSummary {
-  string name = 1;
-  string version = 2;
-  // The requesters is not intrinsic to the plugin,
-  // but the origin of this plugin in the graph;
-  // ie, because it is a transitive dependency from
-  // other plugin or because it is part of the input
-  repeated string requesters = 3;
-}
-
-message PluginsSummary {
-  repeated PluginSummary plugins = 1;
-}
