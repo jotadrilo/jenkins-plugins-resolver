@@ -18,7 +18,7 @@ go_library(
         "//pkg/plugins/meta:go_default_library",
         "//pkg/utils:go_default_library",
         "//vendor/github.com/juju/errors:go_default_library",
-        "//vendor/github.com/mmikulicic/multierror:go_default_library",
+        "//vendor/github.com/mkmik/multierror:go_default_library",
     ],
 )
 

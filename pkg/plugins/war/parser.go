@@ -6,7 +6,7 @@ import (
 	"github.com/bitnami-labs/jenkins-plugins-resolver/api"
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/plugins/jpi"
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 var (

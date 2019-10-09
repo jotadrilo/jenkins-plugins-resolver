@@ -7,7 +7,7 @@ go_library(
     visibility = ["//visibility:public"],
     deps = [
         "//vendor/github.com/juju/errors:go_default_library",
-        "//vendor/github.com/mmikulicic/multierror:go_default_library",
+        "//vendor/github.com/mkmik/multierror:go_default_library",
     ],
 )
 

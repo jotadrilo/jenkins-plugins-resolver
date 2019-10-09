@@ -19,7 +19,7 @@ import (
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/utils"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 const (

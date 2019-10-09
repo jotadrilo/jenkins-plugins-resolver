@@ -8,7 +8,7 @@ import (
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/plugins/common"
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/utils"
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 // AggregateBundledPlugins walks through a jenkins bundled plugins locked registry and compare their versions with the inputs locked registry.

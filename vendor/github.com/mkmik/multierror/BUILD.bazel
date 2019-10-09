@@ -1,0 +1,13 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "compat.go",
+        "compat_go113.go",
+        "multierror.go",
+    ],
+    importmap = "github.com/bitnami-labs/jenkins-plugins-resolver/vendor/github.com/mkmik/multierror",
+    importpath = "github.com/mkmik/multierror",
+    visibility = ["//visibility:public"],
+)

@@ -8,7 +8,7 @@ import (
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/plugins/common"
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/utils"
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 // FindIncompatibilities walks through a graph if there are missmatches between a plugin registry and its

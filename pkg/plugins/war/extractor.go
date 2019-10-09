@@ -7,7 +7,7 @@ import (
 	"github.com/bitnami-labs/jenkins-plugins-resolver/pkg/plugins/jar"
 	zipper "github.com/bitnami-labs/jenkins-plugins-resolver/pkg/zip"
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 const (

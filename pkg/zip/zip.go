@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/juju/errors"
-	"github.com/mmikulicic/multierror"
+	"github.com/mkmik/multierror"
 )
 
 // OpenFile finds a file `src` from the provided reader `w` for a zip file and returns a reader to it
